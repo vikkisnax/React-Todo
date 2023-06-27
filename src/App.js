@@ -100,7 +100,6 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="header">
-          <h2>Welcome to your Todo Appp!</h2>
           {/* pass in state to TL component then pass into ToDo comp and access task there*/}
           <TodoForm addTask={this.addTask} />
         </div>
